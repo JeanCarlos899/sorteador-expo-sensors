@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Sorteador Divertido",
+    "slug": "sorteador-divertido",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#6200ee"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sorteadordivertido"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#6200ee"
+      },
+      "package": "com.sorteadordivertido"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-sensors",
+        {
+          "motionPermission": "Allow $(PRODUCT_NAME) to access your device motion"
+        }
+      ]
+    ],
+    "description": "Um aplicativo divertido para realizar sorteios de números e nomes através da agitação do celular.",
+    "primaryColor": "#6200ee"
+  }
+}
